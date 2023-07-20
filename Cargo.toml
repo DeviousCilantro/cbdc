@@ -1,0 +1,22 @@
+[package]
+name = "cbdc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+w3s = { version = "0.2", features = ["all"] }
+tokio = { version = "1.29.1", features = ["full"] }
+rand = "0.8.5"
+rug = "1.19.2"
+num-primes = "0.3.0"
+ring = "0.16.20"
+base64 = "0.20.0"
+csv = "1.2.2"
+rsa = "0.9.2"
+hex = "0.4.3"
+tabular = "0.2.0"
+actix-web = "4.3.1"
+serde_json = "1.0.103"
+actix-rt = "2.8.0"
